@@ -19,7 +19,7 @@ const Contact = () => {
       <main className="xl:hidden bg-gradient-to-b from-gray-300 to-emerald-300">
         <section className="h-[100vh] pt-24 md:pt-28 ">
           <h2 className="text-center text-black itaic font-bold drop-shadow-lg text-[3rem] md:text-[3.5rem] italic ">
-            Let's Chat
+            Lets Chat
           </h2>
           <div className="h-[2px] w-[120px] bg-black mx-auto mt-1 drop-shadow-lg mb-5 md:w-[160px] "></div>
           <div className="h-[25rem] flex justify-center ">
@@ -35,7 +35,7 @@ const Contact = () => {
       {/* Laptop */}
       <section className="hidden xl:block pt-28 h-[100vh]  ">
         <h2 className="text-center text-black itaic font-bold drop-shadow-lg text-[3rem] md:text-[4rem] italic ">
-          Let's Chat
+          Lets Chat
         </h2>
         <div className="h-[2px] w-[120px] bg-black mx-auto mt-1 drop-shadow-lg mb-5 md:w-[160px] "></div>
         <section className="w-full h-[40rem] flex items-center justify-center bg-gradient-to-b from-gray-300 to-emerald-300 ">

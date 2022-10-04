@@ -29,7 +29,7 @@ const PSA = () => {
             </h2>
             <ul className="ml-8 list-disc md:text-lg ">
               <li className="">Delayed speech</li>
-              <li className="">Can't create words that rhyme</li>
+              <li className="">Cant create words that rhyme</li>
               <li className="">Mixing up sounds and syllables in long words</li>
             </ul>
 
@@ -39,21 +39,21 @@ const PSA = () => {
                 Letter or number reversals continuing past the end of first
                 grade
               </li>
-              <li className="">Can't create words that rhyme</li>
+              <li className="">Cant create words that rhyme</li>
               <li className="">Mixing up sounds and syllables in long words</li>
             </ul>
 
             <h2 className="text-xl font-semibold mt-2">Highschool</h2>
             <ul className="ml-8 list-disc md:text-lg ">
               <li className="">Delayed speech</li>
-              <li className="">Can't create words that rhyme</li>
+              <li className="">Cant create words that rhyme</li>
               <li className="">Mixing up sounds and syllables in long words</li>
             </ul>
 
             <h2 className="text-xl font-semibold mt-2">Adults</h2>
             <ul className="ml-8 list-disc md:text-lg ">
               <li className="">Delayed speech</li>
-              <li className="">Can't create words that rhyme</li>
+              <li className="">Cant create words that rhyme</li>
               <li className="">Mixing up sounds and syllables in long words</li>
             </ul>
           </div>
