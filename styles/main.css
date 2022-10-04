@@ -1,0 +1,22 @@
+@media (min-width: 825px) {
+    .hide-menu {
+        display: none;
+    }
+
+    .desktop-nav {
+        display: flex;
+        align-items: center;
+        padding-bottom: 0;
+        padding-top: 0;
+        position: static;
+        z-index: auto;
+        width: auto;
+        padding-left: 0;
+    }
+    
+}
+
+
+.hide {
+    display: none;
+}
