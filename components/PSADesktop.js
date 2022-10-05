@@ -26,8 +26,8 @@ const PSADesktop = () => {
                 that process language.
             </p>
             <div className="flex items-center">
-                <button className="border-2 w-[75%] border-black flex items-center justify-center mx-auto text-emerald-400 bg-white py-2 mt-6 font-bold rounded-md shadow-lg hover:scale-105 active:scale-75 transition-all duration-500 ease-in-out hover:bg-emerald-400 hover:text-black text-lg md:text-xl ">
-                Learn More<span className="text-black">(link to extra page)</span>
+                <button onClick={() => router.push('/about-dyslexia')} className="border-2 w-[75%] border-black flex items-center justify-center mx-auto text-emerald-400 bg-white py-2 mt-6 font-bold rounded-md shadow-lg hover:scale-105 active:scale-75 transition-all duration-500 ease-in-out hover:bg-emerald-400 hover:text-black text-lg md:text-xl ">
+                Learn More
                 </button>
             </div>
           </div>

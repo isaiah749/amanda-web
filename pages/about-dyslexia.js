@@ -44,7 +44,7 @@ const AboutDyslexia = () => {
                 </div>
             </section>
             <h2 className="font-bold text-4xl italic text-red-500 mt-5 text-center backdrop-shadow-lg ">
-                What Dyslexia Isn't
+                What Dyslexia Is Not
             </h2>
             <section className="flex flex-col items-center justify-center lg:flex-row lg:justify-evenly mt-5">
                 <div className="border-2 border-black rounded-lg h-[fit-content] md:h-[30rem] pb-5 w-[20rem] shadow-xl ">
@@ -52,7 +52,7 @@ const AboutDyslexia = () => {
                         <Image src={picThree} layout='fill' className='rounded-t-md' objectFit='cover' />
                     </div>
                     <p className='px-2 mt-3 text-center'>
-                        <span className="text-red-500 font-bold">Dyslexia is <span className="uppercase">Not</span> a problem of intelligence</span>. Kids with dyslexia are just as smart as their peers. <span className="font-bold text-emerald-400">Many are gifted artistically, athletically, and scientifically</span>. <span className="font-bold text-red-500">Dyslexia is <span className="uppercase">Not</span> a vision problem or reading backwards</span>. You can't out grow dyslexia, but with <span className="text-emerald-400 font-bold">early intervention</span> and <span className="text-emerald-400 font-bold">appropiate accommodations</span> literacy outcomes greatly improve.
+                        <span className="text-red-500 font-bold">Dyslexia is <span className="uppercase">Not</span> a problem of intelligence</span>. Kids with dyslexia are just as smart as their peers. <span className="font-bold text-emerald-400">Many are gifted artistically, athletically, and scientifically</span>. <span className="font-bold text-red-500">Dyslexia is <span className="uppercase">Not</span> a vision problem or reading backwards</span>. You can not out grow dyslexia, but with <span className="text-emerald-400 font-bold">early intervention</span> and <span className="text-emerald-400 font-bold">appropiate accommodations</span> literacy outcomes greatly improve.
                     </p>
                 </div>
 

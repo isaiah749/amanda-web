@@ -72,7 +72,7 @@ const ContactForm = () => {
           <button
             type="submit"
             form="contactForm"
-            className="border-2 border-black rounded-md text-lg font-semibold px-4 py-2 bg-white font-semibold text-emerald-400 lg:text-2xl "
+            className="border-2 border-black rounded-md text-lg font-semibold px-4 py-2 bg-white  text-emerald-400 lg:text-2xl "
           >
             Contact Me
           </button>
