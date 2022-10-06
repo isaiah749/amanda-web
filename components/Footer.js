@@ -2,8 +2,10 @@ import React from "react";
 import Image from "next/image";
 import logo from "../styles/Website Images/MagnificentMindsTutoring[No Background].png";
 import outline from '../styles/Website Images/1.jpg'
+import { useRouter } from "next/router";
 import ProfessionalCard from "./subComponents/ProfessionalCard";
 const Footer = () => {
+  const router = useRouter();
   return (
     <div className="h-[fit-content] w-full grid grid-cols-5 grid-rows-2 border-t-2 border-black items-center pb-5 relative bg-gradient-to-b from-gray-300 to-emerald-300 ">
       <div className="col-start-1 col-end-4 row-start-1 text-center px-1 row-end-3 w-full">
@@ -28,10 +30,11 @@ const Footer = () => {
       <div className="col-start-4 col-end-6 row-start-1 row-end-1 px-3 w-full pt-8 md:pt-12 ">
         <h2 className="font-semibold xl:text-xl ">Quick Links</h2>
         <ul className="pl-2 font-semibold xl:text-xl ">
-            <li className="underline underline-offset-2">Home</li>
-            <li className="underline underline-offset-2">About</li>
-            <li className="underline underline-offset-2">Services</li>
-            <li className="underline underline-offset-2">Contact</li>
+            <li onClick={() => router.push('/')} className="underline underline-offset-2">Home</li>
+            <li onClick={() => router.push('/about-dyslexia')} className="underline underline-offset-2">What&apos;s Dyslexia</li>
+            <li onClick={() => router.push('/about')} className="underline underline-offset-2">About</li>
+            <li onClick={() => router.push('/services')} className="underline underline-offset-2">Services</li>
+            <li onClick={() => router.push('/contact')} className="underline underline-offset-2">Contact</li>
         </ul>
       </div>
       <div className="col-start-4 pt-8 col-end-6 row-start-2  xl:-ml-[265px] row-end-2 w-full">

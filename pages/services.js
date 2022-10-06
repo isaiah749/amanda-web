@@ -14,6 +14,7 @@ const Services = () => {
       <nav className="">
         <Header />
       </nav>
+      {/* Mobile */}
       <div className="xl:hidden">
         <main className="pt-24 md:pt-28 xl:pt-32">
           <div className="drop-shadow-lg">
@@ -23,8 +24,8 @@ const Services = () => {
             <div className="h-[2px] w-[75px] bg-emerald-400 mx-auto mt-2 drop-shadow-lg "></div>
           </div>
 
-          <section className="h-[fit-content] mt-3 relative flex border-b-2 border-red-500 ">
-            <div className="border-2 border-r-0 border-black shadow-lg h-[fit-content] text-sm text-center rounded-l-lg py-2 px-1 z-[100] bg-white w-[225px] md:w-[500px] md:h-[500px] absolute right-0 top-0 ">
+          <section className="h-[fit-content] mt-3 relative flex ">
+            <div className="border-2 border-r-0 border-black shadow-lg h-[fit-content] text-sm text-center rounded-l-lg py-2 px-2 z-[100] bg-white w-[240px] md:w-[500px] md:h-[500px] absolute right-0 top-0 ">
               <h2 className="text-2xl font-semibold text-center italic text-emerald-400 drop-shadow-lg mt-1 md:mt-4 md:text-4xl md:mb-1 ">
                 What I Provide
               </h2>
@@ -54,7 +55,7 @@ const Services = () => {
           <section className="h-[40rem] mt-3 relative flex  ">
             <div className="w-full mx-auto relative h-[700px] ">
               <Image layout="fill" src={picTwo} objectFit="cover" />
-              <div className="absolute top-10 left-0 right-0 mx-auto h-[fit-content] w-[320px] md:w-[640px] rounded-lg border-2 border-black bg-white shadow-xl ">
+              <div className="absolute top-10 left-0 right-0 mx-auto h-[fit-content] pb-2 w-[320px] md:w-[640px] rounded-lg border-2 border-black bg-white shadow-xl ">
                 <h2 className="text-center italic font-semibold text-[1.8rem] pt-2 text-emerald-400 drop-shadow-lg md:text-4xl ">
                   Methods & Approach
                 </h2>
@@ -98,6 +99,7 @@ const Services = () => {
           </section>
         </main>
       </div>
+      {/* Desktop */}
       <div className="hidden xl:block h-[fit-content] pt-28 pb-14">
         <h2 className="text-center text-emerald-400 itaic font-bold drop-shadow-lg text-[3.5rem] mt-3 ">
           Services

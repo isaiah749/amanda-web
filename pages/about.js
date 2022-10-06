@@ -30,23 +30,23 @@ const About = () => {
               />
             </div>
             <ul className="w-[max-content] mx-auto mt-2 text-center ">
-              <li className="md:text-lg md:font-semibold">
+              <li className="text-sm md:text-lg md:font-semibold">
                 Bachelor of Science - University of Southern Indiana
               </li>
-              <li className="md:text-lg md:font-semibold">Licensed Teacher</li>
-              <li className="md:text-lg md:font-semibold">
+              <li className="text-sm md:text-lg md:font-semibold">Licensed Teacher</li>
+              <li className="text-sm md:text-lg md:font-semibold">
                 Ortorn Gillingham Trained
               </li>
-              <li className="md:text-lg md:font-semibold">
+              <li className="text-sm md:text-lg md:font-semibold">
                 Member of International Dyslexia Association
               </li>
-              <li className="md:text-lg md:font-semibold">
+              <li className="text-sm md:text-lg md:font-semibold">
                 LETRS Trained (in progress)
               </li>
             </ul>
           </div>
           <div className="h-[max-content] mt-10 py-3 shadow-lg bg-white border-2 border-black rounded-md md:w-[fit-content] md:mx-auto ">
-            <h2 className="text-center text-3xl font-bold italic pb-2 md:text-[2.45rem] ">
+            <h2 className="text-center text-emerald-400 text-3xl font-bold italic pb-2 md:text-[2.45rem] ">
               About Amanda
             </h2>
             <p className="text-center px-2 md:w-[600px] md:mx-auto md:text-[1.15rem] ">

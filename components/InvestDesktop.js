@@ -12,7 +12,7 @@ const InvestDesktop = () => {
   return (
     <section className="pt-5 pb-20 bg-gradient-to-b bg-gray-200 from-emerald-300 to-transparent ">
       <section className="border-2 border-black rounded-lg w-[90%] h-[max-content] mx-auto bg-white flex shadow-xl ">
-        <div className="relative h-[688px] w-[50rem] ">
+        <div className="relative h-[782px] w-[50rem] ">
           <Image
             src={shotOne}
             layout="fill"
@@ -52,7 +52,7 @@ const InvestDesktop = () => {
       </section>
 
       <section className="border-2 border-black rounded-lg w-[90%] h-[max-content] mx-auto bg-white flex flex-row-reverse mt-[5rem] shadow-xl ">
-        <div className="relative h-[688px] w-[50rem] ">
+        <div className="relative h-[848px] w-[50rem] ">
           <Image
             src={shotTwo}
             layout="fill"
