@@ -73,7 +73,7 @@ const AboutDyslexia = () => {
           </div>
         </section>
         <h2 className="font-bold text-4xl italic text-red-500 mt-5 text-center backdrop-shadow-lg ">
-          What Dyslexia Is&apos;nt
+          What Dyslexia Is Not
         </h2>
         <section className="flex flex-col items-center justify-center md:flex-row md:justify-evenly mt-5">
           <div className="border-2 border-black rounded-lg h-[fit-content] md:h-[30rem] pb-5 w-[20rem] shadow-xl ">
@@ -178,7 +178,7 @@ const AboutDyslexia = () => {
           <div className="h-[24rem] w-[35rem] border-2 border-black shadow-xl bg-white rounded-lg flex items-center justify-center ">
             <div className="">
               <h2 className="font-bold text-5xl italic text-red-500 mt-5 text-center backdrop-shadow-lg ">
-                What isn&apos;t?
+                What Is Not
               </h2>
               <p className="px-5 mt-3 text-center">
               <span className="text-red-500 font-bold">
