@@ -27,10 +27,7 @@ const InvestDesktop = () => {
           <p className="text-lg px-10 text-center mx-auto pt-2 border-l-2 border-black ">
             As a teacher and dyslexia tutor, I am passionate about helping
             students gain confidence in their reading ability and develop a love
-            for literacy.We all have a tendency to put others first, but in
-            doing so, we can sometimes neglect our relationship with ourselves.
-            Let me be your advocate and show you a kinder, gentler way to treat
-            to most important person in your life
+            for literacy.
           </p>
           <div className="border-l-2 border-black flex items-center pb-10 justify-center ">
             <button
@@ -40,7 +37,7 @@ const InvestDesktop = () => {
               Learn More
             </button>
           </div>
-          <div className="h-[410px] w-full relative border-t-2 border-l-2 border-black ">
+          <div className="h-[466px] w-full relative border-t-2 border-l-2 border-black ">
             <Image
               src={shotThree}
               layout="fill"
@@ -61,10 +58,7 @@ const InvestDesktop = () => {
           />
         </div>
         <div className="w-[500px] mx-auto flex-grow">
-          <h2 className="text-center border-r-2 pt-3 border-black text-[2.75rem] font-bold drop-shadow-lg  ">
-            Invest in your relationship with others
-          </h2>
-          <h4 className='font-semibold text-xl pl-5 border-r-2 border-black'>What I Provide:</h4>
+          <h4 className='font-semibold text-xl pl-5 pt-5 border-r-2 border-black'>What I Provide:</h4>
           <div className="w-full border-r-2 border-black ">
             <ul className='list-disc w-[70%] mx-auto text-lg '>
               <li>One-on-One Tutoring That Adapts to Your Child’s Pace, Needs, and Learning Style</li>
