@@ -77,7 +77,7 @@ const InvestDesktop = () => {
               Learn More
             </button>
           </div>
-          <div className="h-[410px] w-full relative border-t-2 border-r-2 border-black ">
+          <div className="h-[468px] w-full relative border-t-2 border-r-2 border-black ">
             <Image
               src={shotFour}
               layout="fill"
