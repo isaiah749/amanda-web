@@ -11,7 +11,7 @@ import ProfessionalCard from '../components/subComponents/ProfessionalCard'
 
 export default function Home() {
   return (
-    <div className=" ">
+    <div className="scrollbar scrollbar-track-gray-400/20 overflow-y-scroll scrollbar-thumb-emerald-400 ">
       <section className="realtive top-0 ">
         <Header />
       </section>

@@ -17,7 +17,7 @@ const Sidebar = () => {
                 <li className='font-bold'>Licensed Teacher</li>
                 <li className='font-bold'>Ortorn Gillingham Trained</li>
                 <li className='font-bold'>Member of International Dyslexia Association</li>
-                <li className='font-bold'>LETRS Trained (in progress)</li>
+                <li className='font-bold'>LETRS Trained</li>
             </ul>
             <div className="flex items-center justify-center ">
                 <button onClick={() => router.push('/contact')} className='border-2 border-black text-center font-bold text-emerald-400 w-[300px] text-xl py-2 rounded-lg shadow-xl mx-auto mt-10  '>Contact Me</button>
