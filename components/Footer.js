@@ -8,9 +8,9 @@ import ProfessionalCard from "./subComponents/ProfessionalCard";
 const Footer = () => {
   const router = useRouter();
   return (
-    <div className="h-[400px] bg-gradient-to-b from-gray-300 to-emerald-300 ">
-      <section className="xl:hidden w-full border border-red-500 h-full flex items-center justify-between ">
-        <div className="border border-blue-500 h-full w-[65%] flex flex-col items-center justify-center ">
+    <div className="h-[max-content] xl:h-[400px] bg-gradient-to-b from-gray-300 to-emerald-300 ">
+      <section className="xl:hidden w-full h-full flex items-center justify-between ">
+        <div className="h-full w-[65%] flex flex-col items-center justify-center ">
           <div className="relative h-20 w-20">
             <Image src={logo} layout='fill' objectFit="contain" />
           </div>
@@ -24,57 +24,107 @@ const Footer = () => {
             <div className="border-2 border-black border-dotted w-[150px] my-2"></div>
             <h2 className="font-bold">Phone/Text: 812-449-6934</h2>
         </div>
-        <div className="border border-green-500 h-full w-[35%] flex flex-col items-center justify-center ">
+        <div className="h-full w-[35%] flex flex-col items-center justify-center py-3 ">
           <h2 className="font-bold text-lg">Quick Links</h2>
-          <ul className="font-semibold text-center ">
+          <ul className="font-semibold text-center text-sm ">
             <li className="underline underline-offset-2" onClick={() => router.push('/')}>Home</li>
             <li className="underline underline-offset-2" onClick={() => router.push('/about-dyslexia')}>What&apos;s Dyslexia</li>
             <li className="underline underline-offset-2" onClick={() => router.push('/about')}>About</li>
             <li className="underline underline-offset-2" onClick={() => router.push('/services')}>Services</li>
             <li className="underline underline-offset-2" onClick={() => router.push('/contact')}>Contact</li>
           </ul>
-          <h2 className="font-bold text-center mt-5">Helpful Resources</h2>
-          <ul>
+          <h2 className="font-bold text-center mt-5 md:text-lg ">Helpful Resources</h2>
+          <ul className="pr-2">
             <li>
-              <Link href={"www.google.com"}>
-                Home
+              <Link href={"www.dyslexiaida.org"}>
+                <h2 className="text-sm text-center font-semibold underline underline-offset-2">International Dyslexia Association</h2>
               </Link>
             </li>
             <li>
-              <Link href={"www.google.com"}>
-                Home
+              <Link href={"www.understood.org"}>
+              <h2 className="text-sm text-center font-semibold underline underline-offset-2">Understood for All Inc.</h2>
               </Link>
             </li>
             <li>
-              <Link href={"www.google.com"}>
-                Home
+              <Link href={"www.dyslexia.yale.edu"}>
+              <h2 className="text-sm text-center font-semibold underline underline-offset-2">The Yale Center for Dyslexia and Creativity</h2>
               </Link>
             </li>
             <li>
-              <Link href={"www.google.com"}>
-                Home
+              <Link href={"www.brightsolutions.us"}>
+              <h2 className="text-sm text-center font-semibold underline underline-offset-2">Bright Solutions for Dyslexia</h2>
               </Link>
             </li>
             <li>
-              <Link href={"www.google.com"}>
-                Home
+              <Link href={"www.bartonreading.com"}>
+              <h2 className="text-sm">Barton Reading & Spelling System</h2>
               </Link>
             </li>
             <li>
-              <Link href={"www.google.com"}>
-                Home
+              <Link href={"www.ortonacademy.org"}>
+              <h2 className="text-sm text-center font-semibold underline underline-offset-2">Orton Gillingham Academy</h2>
               </Link>
             </li>
             <li>
-              <Link href={"www.google.com"}>
-                Home
+              <Link href={"www.learningally.org"}>
+              <h2 className="text-sm text-center font-semibold underline underline-offset-2">Learning Ally (audiobooks)</h2>
               </Link>
             </li>
           </ul>
         </div>
       </section>
-      <div className="hidden xl:block">
+      <div className="hidden xl:flex items-center justify-start space-x-[18rem]">
         <ProfessionalCard />
+        <div>
+          <h2 className="font-bold text-xl text-center">Quick Links</h2>
+          <ul className="font-semibold text-center text-lg ">
+            <li className="underline underline-offset-2" onClick={() => router.push('/')}>Home</li>
+            <li className="underline underline-offset-2" onClick={() => router.push('/about-dyslexia')}>What&apos;s Dyslexia</li>
+            <li className="underline underline-offset-2" onClick={() => router.push('/about')}>About</li>
+            <li className="underline underline-offset-2" onClick={() => router.push('/services')}>Services</li>
+            <li className="underline underline-offset-2" onClick={() => router.push('/contact')}>Contact</li>
+          </ul>
+        </div>
+        <div>
+          <h2 className="font-bold text-center mt-5 text-xl ">Helpful Resources</h2>
+          <ul className="pr-2">
+            <li>
+              <Link href={"www.dyslexiaida.org"}>
+                <h2 className="text-lg text-center font-semibold underline underline-offset-2">International Dyslexia Association</h2>
+              </Link>
+            </li>
+            <li>
+              <Link href={"www.understood.org"}>
+              <h2 className="text-lg text-center font-semibold underline underline-offset-2">Understood for All Inc.</h2>
+              </Link>
+            </li>
+            <li>
+              <Link href={"www.dyslexia.yale.edu"}>
+              <h2 className="text-lg text-center font-semibold underline underline-offset-2">The Yale Center for Dyslexia and Creativity</h2>
+              </Link>
+            </li>
+            <li>
+              <Link href={"www.brightsolutions.us"}>
+              <h2 className="text-lg text-center font-semibold underline underline-offset-2">Bright Solutions for Dyslexia</h2>
+              </Link>
+            </li>
+            <li>
+              <Link href={"www.bartonreading.com"}>
+              <h2 className="text-lg text-center font-semibold underline underline-offset-2">Barton Reading & Spelling System</h2>
+              </Link>
+            </li>
+            <li>
+              <Link href={"www.ortonacademy.org"}>
+              <h2 className="text-lg text-center font-semibold underline underline-offset-2">Orton Gillingham Academy</h2>
+              </Link>
+            </li>
+            <li>
+              <Link href={"www.learningally.org"}>
+              <h2 className="text-lg text-center font-semibold underline underline-offset-2">Learning Ally (audiobooks)</h2>
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
