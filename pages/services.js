@@ -10,7 +10,7 @@ const Services = () => {
   const router = useRouter();
 
   return (
-    <div className="pb-5">
+    <div className="">
       <nav className="">
         <Header />
       </nav>
@@ -188,7 +188,9 @@ const Services = () => {
           </div>
         </section>
       </div>
-      <Footer />
+      <div className="mt-14">
+        <Footer />
+      </div>
     </div>
   );
 };
