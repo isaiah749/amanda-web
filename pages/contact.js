@@ -34,7 +34,7 @@ const Contact = () => {
           Lets Chat
         </h2>
         <div className="h-[2px] w-[120px] bg-emerald-400 mx-auto mt-1 drop-shadow-lg mb-5 md:w-[160px] "></div>
-        <section className="w-full h-[35rem] flex items-center justify-center bg-gradient-to-b from-gray-300 to-emerald-300 ">
+        <section className="w-full h-[35rem] flex items-center  justify-center bg-gradient-to-b from-gray-300 to-emerald-300 ">
           <div className="w-[35%] ">
             <div className="relative h-[35rem] ">
               <Image src={picOne} layout="fill" objectFit="contain" />
@@ -45,7 +45,7 @@ const Contact = () => {
           </div>
         </section>
       </section>
-      <footer className="xl:-mt-[7rem]">
+      <footer className="xl:-mt-[9rem]">
         <Footer />
       </footer>
     </div>

@@ -27,6 +27,11 @@ const ContactForm = () => {
             </div>
             <input type="text" {...register('subject')} placeholder="Subject" className="contactInput" />
             <textarea placeholder="Message" {...register('message')} className="contactInput" />
+
+            <div className="flex items-center justify-center">
+              <button type='submit' className="border-2 mt-3 border-black rounded-lg flex items-center justify-center font-semibold text-lg bg-emerald-400 w-[200px] py-2 shadow-xl ">Contact Me</button>
+            </div>
+
         </form>
     </>
   )

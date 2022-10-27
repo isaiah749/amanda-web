@@ -4,7 +4,15 @@
 
 @layer components {
     .contactInput {
-        @apply outline-none bg-white rounded-sm border-b-2 border-emerald-400 px-6 py-4 text-gray-500 placeholder:text-gray-500 transition-all focus:border-emerald-500/40  hover:text-emerald-500/40 cursor-pointer
+        @apply outline-none bg-white rounded-sm border-b-2 border-emerald-400 px-6 py-4 text-gray-500 placeholder:text-gray-500 transition-all focus:border-emerald-500/40   cursor-pointer
         md:placeholder:text-lg md:text-lg
+    }
+
+    .quick-links {
+        @apply text-center underline underline-offset-2 cursor-pointer font-semibold
+    }
+
+    .helpful-resource-link {
+        @apply pl-3 underline underline-offset-2 text-emerald-400 font-semibold cursor-pointer md:text-lg
     }
 }

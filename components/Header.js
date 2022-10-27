@@ -46,6 +46,10 @@ const Header = () => {
                 <div className="md:ml-5 text-lg lg:text-lg xl:text-xl my-4 ">
                     <li onClick={() => router.push('/services')} className="text-emerald-600  hover:text-emerald-400 font-semibold my-4 md:text-2xl lg:text-lg xl:text-xl md:my-2 lg:my-0 cursor-pointer duration-500 ">Services</li>
                 </div>
+
+                <div className="md:ml-5 text-lg lg:text-lg xl:text-xl my-4 ">
+                    <li onClick={() => router.push('/resources')} className="text-emerald-600  hover:text-emerald-400 font-semibold my-4 md:text-2xl lg:text-lg xl:text-xl md:my-2 lg:my-0 cursor-pointer duration-500 ">Resources</li>
+                </div>
     
                 <div className="md:ml-5 text-lg lg:text-lg xl:text-xl my-4 ">
                     <li onClick={() => router.push('/contact')} className="text-emerald-600  hover:text-emerald-400 font-semibold my-4 md:text-2xl lg:text-lg xl:text-xl md:my-2 lg:my-0 cursor-pointer mr-5 duration-500 ">Contact</li>

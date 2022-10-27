@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const ProfessionalCard = () => {
   return (
-    <div className="h-[max-content] w-[450px] lg:w-[500px] xl:w-[600px] flex items-center justify-center py-2 lg:ml-20 ">
-      <div className="relative h-[100px] w-[100px] md:h-[150px] md:w-[150px] mt-2 mx-auto  ">
+    <div className="h-[max-content] w-[350px] sm:w-[450px] lg:w-[500px] xl:w-[600px] flex flex-col mx-auto sm:flex-row items-center justify-center py-2 lg:ml-20 ">
+      <div className="relative h-[75px] w-[75px] sm:h-[100px] sm:w-[100px] md:h-[150px] md:w-[150px] mt-2 mx-auto  ">
         <Image
           src={logo}
           layout="fill"
@@ -13,7 +13,7 @@ const ProfessionalCard = () => {
           objectPosition="center"
         />
       </div>
-      <div className="flex-col items-center justify-center pt-10 text-center mr-5 ">
+      <div className="flex-col items-center justify-center pt-3 md:ml-5 sm:pt-5 text-center ">
         <h2 className="font-bold text-lg lg:text-xl">Amanda Tucker</h2>
         <h3 className="font-semibold lg:text-lg">Dyslexia Tutor</h3>
         <h2 className="font-bold lg:text-xl">Magnificent Minds Tutoring, LLC</h2>
