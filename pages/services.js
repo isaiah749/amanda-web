@@ -10,7 +10,7 @@ const Services = () => {
   const router = useRouter();
 
   return (
-    <div className="">
+    <div className="pb-5">
       <nav className="">
         <Header />
       </nav>
