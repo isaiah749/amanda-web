@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import picOne from "../styles/Website Images/dys-warning-signs.png";
+import picOne from "../styles/Website Images/13.jpg";
 import { useRouter } from 'next/router'
 
 const PSADesktop = () => {
@@ -10,10 +10,10 @@ const PSADesktop = () => {
   return (
     <div className="h-[fit-content] pt-10 ">
       <section className="w-full h-[fit-content] flex items-center justify-evenly ">
-        <div className="relative h-[50rem] w-[40rem]  ">
+        <div className="relative h-[50rem] w-[60rem]  ">
           <Image src={picOne} layout="fill" objectFit="contain" />
         </div>
-        <div className="border-2 border-black h-[25rem] w-[750px] -mt-[10rem] py-5 px-2 flex items-center justify-center rounded-lg shadow-xl ">
+        <div className="border-2 border-black h-[25rem] w-[750px]  py-5 px-2 flex items-center justify-center rounded-lg shadow-xl ">
             <div className="">
             <h2 className="text-5xl font-bold text-left drop-shadow-lg">
                 About Dyslexia

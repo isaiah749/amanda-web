@@ -45,7 +45,7 @@ const Contact = () => {
           </div>
         </section>
       </section>
-      <footer className="xl:-mt-[9rem]">
+      <footer className="xl:-mt-[7rem]">
         <Footer />
       </footer>
     </div>

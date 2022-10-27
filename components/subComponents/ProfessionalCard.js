@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const ProfessionalCard = () => {
   return (
-    <div className="h-[max-content] w-[350px] sm:w-[450px] lg:w-[500px] xl:w-[600px] flex flex-col mx-auto sm:flex-row items-center justify-center py-2 lg:ml-20 ">
+    <div className="h-[max-content] w-[350px] sm:w-[450px] lg:w-[500px] xl:w-[600px] flex flex-col mx-auto md:flex-row items-center justify-center py-2 lg:ml-20 ">
       <div className="relative h-[75px] w-[75px] sm:h-[100px] sm:w-[100px] md:h-[150px] md:w-[150px] mt-2 mx-auto  ">
         <Image
           src={logo}
