@@ -67,9 +67,6 @@ const Resources = () => {
             <li className="helpful-resource-link">
             <a href='/assets/Dys warning signs.pdf' target="_blank" rel="nooppener noreferrer" className="">Dyslexia Warning Signs</a>
             </li>
-            <li className="helpful-resource-link">
-            <a href='/assets/Dyslexia Tutor.pdf' target="_blank" rel="nooppener noreferrer" className="">Dyslexia Tutor</a>
-            </li>
           </ul>
         </div>
         <div className="hidden md:block relative h-[25rem] md:w-[50%] xl:w-[60%]">

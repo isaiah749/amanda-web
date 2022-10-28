@@ -173,7 +173,7 @@ const AboutDyslexia = () => {
         </div>
         <div className="h-[max-content] py-10 flex flex-row-reverse items-center justify-center ">
           <div className="h-[24rem] w-[35rem] border-2 border-black shadow-xl bg-white rounded-lg relative ml-20 ">
-            <Image src={picTwo} layout="fill" className='rounded-lg' objectFit="cover" />
+            <Image src={picFour} layout="fill" className='rounded-lg' objectFit="cover" />
           </div>
           <div className="h-[24rem] w-[35rem] border-2 border-black shadow-xl bg-white rounded-lg flex items-center justify-center ">
             <div className="">
