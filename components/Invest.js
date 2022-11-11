@@ -48,34 +48,8 @@ const Invest = () => {
           </div>
         </div>
 
-        <div className="md:flex md:mr-5 items-center md:flex-row">
-          <div className="flex flex-col ">
-            <h1 className="text-4xl mt-5 md:mt-0 font-bold text-center w-[fit-content] mx-auto drop-shadow-lg md:text-[2.5rem] md:ml-2 ">
-              Methods & Approach
-            </h1>
-            <div className="hidden md:block relative h-[280px] w-[320px] rounded-md shadow-lg -ml-1 md:mx-auto md:mt-5 mt-3 border-2 border-black bg-white  ">
-              <Image src={shotSix} layout="fill" objectFit="cover" />
-            </div>
-          </div>
-          <div className="border-2 border-black bg-white h-[fit-content] w-[365px] md:w-[400px] px-2 mx-auto rounded-md pb-8 mt-5 md:pt-3 ">
-            <div className="relative h-[250px] mx-auto">
-              <Image src={shotFive} layout="fill" objectFit="contain" />
-            </div>
-            <p className="text-md w-[350px] text-center mx-auto mt-2 ">
-              The Barton Reading and Spelling System is the primary curriculum
-              utilized. This program was designed using the Orton Gillingham
-              methodology and has proven successful for over 20 years in
-              teaching dyslexic individuals to read and spell. Should a student
-              not pass the Barton Reading and Spelling screener, we also utilize
-              a prerequisite curriculum called Foundation in Sounds. In
-              addition, we begin each session with a “brain warm-up” using
-              phonemic awareness drills from an esteemed program called Equipped
-              for Reading Success.
-            </p>
-          </div>
-        </div>
 
-        <div className="md:flex md:ml-5 items-center md:flex-row-reverse">
+        <div className="md:flex md:ml-5 items-center md:flex-row">
           <div className="flex flex-col ">
             <h1 className="text-4xl mt-5 md:mt-0 font-bold text-center w-[fit-content] mx-auto drop-shadow-lg md:text-[2.5rem] md:ml-2 ">
               What I Provide:

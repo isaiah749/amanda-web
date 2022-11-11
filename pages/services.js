@@ -1,13 +1,13 @@
-import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import Image from "next/image";
-import picOne from "../styles/Website Images/Amanda T  Headshots-14.jpg";
-import picTwo from "../styles/Website Images/Amanda T  Headshots-27.jpg";
-import { useRouter } from "next/router";
+import React from 'react'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import Image from 'next/image'
+import picOne from '../styles/Website Images/Amanda T  Headshots-14.jpg'
+import picTwo from '../styles/Website Images/Amanda T  Headshots-27.jpg'
+import { useRouter } from 'next/router'
 
 const Services = () => {
-  const router = useRouter();
+  const router = useRouter()
 
   return (
     <div className="">
@@ -61,14 +61,14 @@ const Services = () => {
                 </h2>
                 <p className="px-2 pb-2 text-center text-sm md:text-lg ">
                   The Barton Reading and Spelling System is the primary
-                  curriculum I utilize. This program was designed using the
-                  Orton Gillingham methodology and has proven successful for
-                  over 20 years in teaching dyslexic individuals to read and
-                  spell. Should a student not pass the Barton Reading and
-                  Spelling screener, I also utilize a prerequisite curriculum
-                  called Foundation in Sounds. In addition, we begin each
-                  session with a “brain warm-up” using phonemic awareness drills
-                  from a program called Equipped for Reading Success.
+                  curriculum utilized. This program was designed using the Orton
+                  Gillingham methodology and has proven successful for over 20
+                  years in teaching dyslexic individuals to read and spell.
+                  Should a student not pass the Barton Reading and Spelling
+                  screener, we also utilize a prerequisite curriculum called
+                  Foundation in Sounds. In addition, we begin each session with
+                  a “brain warm-up” using phonemic awareness drills from an
+                  esteemed program called Equipped for Reading Success.
                 </p>
                 <h2 className="pl-2 font-semibold text-lg text-emerald-400 md:text-2xl ">
                   The Barton System is:
@@ -82,11 +82,11 @@ const Services = () => {
                   </li>
                 </ul>
                 <p className="text-center text-sm md:text-lg">
-                  To learn more about why the Barton system is so effective{" "}
+                  To learn more about why the Barton system is so effective{' '}
                   <span
                     onClick={() =>
                       router.push(
-                        "https://bartonreading.com/the-barton-system-is/"
+                        'https://bartonreading.com/the-barton-system-is/',
                       )
                     }
                     className="text-blue-500 hover:underline underline-offset-1 font-semibold "
@@ -147,44 +147,42 @@ const Services = () => {
             </h2>
             <div className="h-[2px] w-[120px] bg-emerald-400 mx-auto mt-1 drop-shadow-lg mb-5 "></div>
             <p className="px-2 pb-2 text-center text-sm md:text-lg ">
-                  The Barton Reading and Spelling System is the primary
-                  curriculum I utilize. This program was designed using the
-                  Orton Gillingham methodology and has proven successful for
-                  over 20 years in teaching dyslexic individuals to read and
-                  spell. Should a student not pass the Barton Reading and
-                  Spelling screener, I also utilize a prerequisite curriculum
-                  called Foundation in Sounds. In addition, we begin each
-                  session with a “brain warm-up” using phonemic awareness drills
-                  from a program called Equipped for Reading Success.
-                </p>
-                <div className="flex items-center justify-center">
-                  <div className="">
-                    <h2 className="font-semibold text-lg text-emerald-400 md:text-2xl ">
-                      The Barton System is:
-                    </h2>
-                    <ul className="w-[260px] mx-auto list-disc pb-5 text-sm md:text-lg ">
-                      <li className="">Research and Evidence Based</li>
-                      <li className="">Follows Orton Gillingham Principles</li>
-                      <li className="">Multisensory</li>
-                      <li className="">
-                        Explicit, Systematic & Sequential Phonics Program
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <p className="text-center text-sm md:text-lg">
-                  To learn more about why the Barton system is so effective{" "}
-                  <span
-                    onClick={() =>
-                      router.push(
-                        "https://bartonreading.com/the-barton-system-is/"
-                      )
-                    }
-                    className="text-blue-500 hover:underline underline-offset-1 font-semibold "
-                  >
-                    Click here
-                  </span>
-                </p>
+              The Barton Reading and Spelling System is the primary curriculum
+              utilized. This program was designed using the Orton Gillingham
+              methodology and has proven successful for over 20 years in
+              teaching dyslexic individuals to read and spell. Should a student
+              not pass the Barton Reading and Spelling screener, we also utilize
+              a prerequisite curriculum called Foundation in Sounds. In
+              addition, we begin each session with a “brain warm-up” using
+              phonemic awareness drills from an esteemed program called Equipped
+              for Reading Success.
+            </p>
+            <div className="flex items-center justify-center">
+              <div className="">
+                <h2 className="font-semibold text-lg text-emerald-400 md:text-2xl ">
+                  The Barton System is:
+                </h2>
+                <ul className="w-[260px] mx-auto list-disc pb-5 text-sm md:text-lg ">
+                  <li className="">Research and Evidence Based</li>
+                  <li className="">Follows Orton Gillingham Principles</li>
+                  <li className="">Multisensory</li>
+                  <li className="">
+                    Explicit, Systematic & Sequential Phonics Program
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p className="text-center text-sm md:text-lg">
+              To learn more about why the Barton system is so effective{' '}
+              <span
+                onClick={() =>
+                  router.push('https://bartonreading.com/the-barton-system-is/')
+                }
+                className="text-blue-500 hover:underline underline-offset-1 font-semibold "
+              >
+                Click here
+              </span>
+            </p>
           </div>
         </section>
       </div>
@@ -192,7 +190,7 @@ const Services = () => {
         <Footer />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Services;
+export default Services

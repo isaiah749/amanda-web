@@ -57,58 +57,21 @@ const InvestDesktop = () => {
           </div>
         </div>
       </section>
-
-      <section className="border-2 mt-[5rem] border-black rounded-lg w-[90%] h-[max-content] mx-auto bg-white flex shadow-xl flex-row-reverse ">
-        <div className="relative h-[856px] w-[60rem] ">
+      
+      <section className="border-2 mt-[5rem] border-black rounded-lg w-[90%] h-[max-content] mx-auto bg-white flex flex-row-reverse shadow-xl ">
+        <div className="relative h-[978px] w-[60rem] ">
           <Image
-            src={shotFive}
+            src={shotTwo}
             layout="fill"
-            className="rounded-r-lg"
+            className="rounded-r-md"
             objectFit="cover"
           />
         </div>
         <div className="w-[500px] mx-auto flex-grow">
           <h2 className="text-center border-r-2 pt-3 border-black text-[2.75rem] font-bold drop-shadow-lg  ">
-            Methods & Approach
-          </h2>
-          <p className="text-lg px-10 text-center mx-auto pt-2 border-r-2 border-black ">
-            The Barton Reading and Spelling System is the primary curriculum
-            utilized. This program was designed using the Orton Gillingham
-            methodology and has proven successful for over 20 years in teaching
-            dyslexic individuals to read and spell. Should a student not pass
-            the Barton Reading and Spelling screener, we also utilize a
-            prerequisite curriculum called Foundation in Sounds. In addition, we
-            begin each session with a “brain warm-up” using phonemic awareness
-            drills from an esteemed program called Equipped for Reading Success.
-          </p>
-          <div className="border-r-2 border-black flex items-center pb-10 justify-center ">
-
-          </div>
-          <div className="h-[534px] w-full relative border-t-2 border-r-2 border-black ">
-            <Image
-              src={shotSix}
-              layout="fill"
-              className="rounded-bl-lg"
-              objectFit="cover"
-            />
-          </div>
-        </div>
-      </section>
-
-      <section className="border-2 mt-[5rem] border-black rounded-lg w-[90%] h-[max-content] mx-auto bg-white flex shadow-xl ">
-        <div className="relative h-[978px] w-[60rem] ">
-          <Image
-            src={shotTwo}
-            layout="fill"
-            className="rounded-l-lg"
-            objectFit="cover"
-          />
-        </div>
-        <div className="w-[500px] mx-auto flex-grow">
-          <h2 className="text-center border-l-2 pt-3 border-black text-[2.75rem] font-bold drop-shadow-lg  ">
             What I Provide:
           </h2>
-          <div className="w-full border-l-2 border-black ">
+          <div className="w-full border-r-2 border-black ">
             <ul className='list-disc w-[70%] mx-auto text-lg '>
               <li>One-on-One Tutoring That Adapts to Your Child&apos;s Pace, Needs, and Learning Style</li>
               <li>Multisensory, Structured Language Education (MSLE) Using the Barton Reading and Spelling Program</li>
@@ -118,7 +81,7 @@ const InvestDesktop = () => {
               <li>Extra Practice Pages</li>
             </ul>
           </div>
-          <div className="border-l-2 border-black flex items-center pb-10 justify-center ">
+          <div className="border-r-2 border-black flex items-center pb-10 justify-center ">
             <button
               onClick={() => router.push("/services")}
               className="border-2 w-[400px] border-black flex items-center justify-center mx-auto text-emerald-400 bg-white py-2 mt-5 font-semibold rounded-md shadow-lg hover:scale-105 active:scale-75 transition-all duration-500 ease-in-out hover:bg-emerald-400 hover:text-black md:text-lg "
@@ -126,11 +89,11 @@ const InvestDesktop = () => {
               Learn More
             </button>
           </div>
-          <div className="h-[466px] w-full relative border-t-2 border-l-2 border-black ">
+          <div className="h-[568px] w-full relative border-t-2 border-r-2 border-black ">
             <Image
               src={shotFour}
               layout="fill"
-              className="rounded-br-lg"
+              className="rounded-bl-lg"
               objectFit="cover"
             />
           </div>
