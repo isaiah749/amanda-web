@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Image from 'next/image'
 import picOne from '../styles/Website Images/Amanda T  Headshots-30.jpg'
-import ContactForm from '../components/subComponents/ContactForm.tsx'
+import ContactForm from '../components/subComponents/ContactForm'
 
 const Contact = () => {
   return (
