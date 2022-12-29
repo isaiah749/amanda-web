@@ -91,10 +91,6 @@ const Center = () => {
                 </p>
               </div>
             </section>
-
-            <section className='h-[300vh] bg-blue-500 '>
-              <div className="h-44 bg-red-500 sticky top-0"></div>
-            </section>
         </div>
   )
 }
