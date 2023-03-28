@@ -10,7 +10,7 @@ const ContactForm = () => {
 
   return (
     <div>
-        <form id='contactForm' action='https://formsubmit.co/magmindstutor@gmail.com' method='POST' className="flex flex-col space-y-2 w-fit mx-auto">
+        <form id='contactForm' action='https://formsubmit.co/magmindstutor@gmail.com' method='POST' className="flex flex-col space-y-2 py-5 w-fit mx-auto">
             <div className='flex flex-col items-center space-y-2 md:space-y-0 md:flex-row md:space-x-2'>
                 <input type="text" value={name} name='name' onChange={(e) => setName(e.target.value)} placeholder='Name' className='contactInput' />
                 <input type="hidden" name='_next' value='https://magnificentmindstutoring.com' />
