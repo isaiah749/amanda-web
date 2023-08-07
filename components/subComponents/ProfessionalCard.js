@@ -18,7 +18,7 @@ const ProfessionalCard = () => {
         <h3 className="font-semibold lg:text-lg">Dyslexia Tutor</h3>
         <h2 className="font-bold lg:text-xl">Magnificent Minds Tutoring, LLC</h2>
         <div className="h-[1px] w-[200px] border-2 lg:w-[400px] border-black mx-auto border-dotted my-2 "></div>
-        <h2 className="text-sm lg:text-lg">3313 W County Road 500 N Richland, IN 47634</h2>
+        <h2 className="text-sm lg:text-lg"></h2>
         <h3 className="lg:text-lg">magnificentmindstutoring.com</h3>
         <h2 className="lg:text-lg">magmindstutor@gmail.com</h2>
         <div className="h-[1px] w-[200px] border-2 lg:w-[400px] border-black mx-auto border-dotted my-2 "></div>
